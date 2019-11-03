@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="W8k-3z-INd">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="AppleSDGothicNeo.ttc">
+            <string>AppleSDGothicNeo-Regular</string>
+            <string>AppleSDGothicNeo-SemiBold</string>
+        </array>
+        <array key="Arial.ttf">
+            <string>ArialMT</string>
+        </array>
+        <array key="Didot.ttc">
+            <string>Didot-Bold</string>
+        </array>
+        <array key="Helvetica.ttc">
+            <string>Helvetica</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Toturial List View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" userLabel="Toturial List View Controller" customClass="ViewController" customModule="Tutorials" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xFa-9v-x32"/>
+                        <viewControllerLayoutGuide type="bottom" id="GJ9-hc-Tpn"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hrg-fU-tGA">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <subviews>
+                                    <stackView contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="nf7-xk-qDT" userLabel="Content View">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1895"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="J7p-f6-Iij" userLabel="Tutorial Summary View">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="307.5"/>
+                                                <subviews>
+                                                    <view contentMode="bottom" translatesAutoresizingMaskIntoConstraints="NO" id="nxl-Fh-Yy7">
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="250"/>
+                                                        <subviews>
+                                                            <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="whg-Eg-Chf">
+                                                                <rect key="frame" x="0.0" y="146" width="375" height="112"/>
+                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                            </pageControl>
+                                                            <imageView opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="candle-27" translatesAutoresizingMaskIntoConstraints="NO" id="YBO-SA-YOq">
+                                                                <rect key="frame" x="0.0" y="0.0" width="375" height="250"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" secondItem="YBO-SA-YOq" secondAttribute="height" multiplier="3:2" id="Pmo-hF-qAf"/>
+                                                                </constraints>
+                                                            </imageView>
+                                                        </subviews>
+                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </view>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Product Title" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DwW-sa-aGq">
+                                                        <rect key="frame" x="0.0" y="260" width="375" height="21.5"/>
+                                                        <fontDescription key="fontDescription" name="Didot-Bold" family="Didot" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="with Soy Wax and Mint Essential Oil " textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ich-Jm-cob">
+                                                        <rect key="frame" x="0.0" y="291.5" width="375" height="16"/>
+                                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="13"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="DwW-sa-aGq" firstAttribute="bottom" secondItem="nxl-Fh-Yy7" secondAttribute="bottom" id="87v-VL-hDE"/>
+                                                    <constraint firstAttribute="trailing" secondItem="nxl-Fh-Yy7" secondAttribute="trailing" id="Asv-Hh-krI"/>
+                                                    <constraint firstItem="nxl-Fh-Yy7" firstAttribute="leading" secondItem="J7p-f6-Iij" secondAttribute="leading" id="HJu-IE-ubj"/>
+                                                    <constraint firstItem="nxl-Fh-Yy7" firstAttribute="top" secondItem="J7p-f6-Iij" secondAttribute="top" id="dKY-5o-JBv"/>
+                                                </constraints>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="lqE-bu-9d1">
+                                                <rect key="frame" x="0.0" y="317.5" width="375" height="307.5"/>
+                                                <subviews>
+                                                    <imageView opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="candle-27" translatesAutoresizingMaskIntoConstraints="NO" id="7Vu-pb-IbA">
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="250"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" secondItem="7Vu-pb-IbA" secondAttribute="height" multiplier="3:2" id="WAt-xW-Jcg"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Product Title" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dBk-Tl-JGN">
+                                                        <rect key="frame" x="0.0" y="260" width="375" height="21.5"/>
+                                                        <fontDescription key="fontDescription" name="Didot-Bold" family="Didot" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="with Soy Wax and Mint Essential Oil " textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="czA-LC-soN">
+                                                        <rect key="frame" x="0.0" y="291.5" width="375" height="16"/>
+                                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="13"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="nKG-ju-LZG">
+                                                <rect key="frame" x="0.0" y="635" width="375" height="307.5"/>
+                                                <subviews>
+                                                    <imageView opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="candle-27" translatesAutoresizingMaskIntoConstraints="NO" id="4Bt-JY-ljz">
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="250"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" secondItem="4Bt-JY-ljz" secondAttribute="height" multiplier="3:2" id="hzD-Qh-66z"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Product Title" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f0a-Ko-Y3h">
+                                                        <rect key="frame" x="0.0" y="260" width="375" height="21.5"/>
+                                                        <fontDescription key="fontDescription" name="Didot-Bold" family="Didot" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="with Soy Wax and Mint Essential Oil " textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8W2-Rn-Vkb">
+                                                        <rect key="frame" x="0.0" y="291.5" width="375" height="16"/>
+                                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="13"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="5yD-IN-Kp9">
+                                                <rect key="frame" x="0.0" y="952.5" width="375" height="307.5"/>
+                                                <subviews>
+                                                    <imageView opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="candle-27" translatesAutoresizingMaskIntoConstraints="NO" id="eLS-R6-gqK">
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="250"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" secondItem="eLS-R6-gqK" secondAttribute="height" multiplier="3:2" id="lzI-uj-Gfb"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Product Title" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mAx-WC-Crh">
+                                                        <rect key="frame" x="0.0" y="260" width="375" height="21.5"/>
+                                                        <fontDescription key="fontDescription" name="Didot-Bold" family="Didot" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="with Soy Wax and Mint Essential Oil " textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I6v-Bs-YMz">
+                                                        <rect key="frame" x="0.0" y="291.5" width="375" height="16"/>
+                                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="13"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="KcJ-qL-Dpl">
+                                                <rect key="frame" x="0.0" y="1270" width="375" height="307.5"/>
+                                                <subviews>
+                                                    <imageView opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="candle-27" translatesAutoresizingMaskIntoConstraints="NO" id="M4U-Dh-wTf">
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="250"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" secondItem="M4U-Dh-wTf" secondAttribute="height" multiplier="3:2" id="9Nv-cH-XpQ"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Product Title" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sTb-Nq-OCL">
+                                                        <rect key="frame" x="0.0" y="260" width="375" height="21.5"/>
+                                                        <fontDescription key="fontDescription" name="Didot-Bold" family="Didot" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="with Soy Wax and Mint Essential Oil " textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4kM-XV-DrS">
+                                                        <rect key="frame" x="0.0" y="291.5" width="375" height="16"/>
+                                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="13"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="bEL-kN-ySS">
+                                                <rect key="frame" x="0.0" y="1587.5" width="375" height="307.5"/>
+                                                <subviews>
+                                                    <imageView opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="candle-27" translatesAutoresizingMaskIntoConstraints="NO" id="rla-g8-QkS">
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="250"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" secondItem="rla-g8-QkS" secondAttribute="height" multiplier="3:2" id="znB-xe-Aj2"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Product Title" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bhp-wl-onB">
+                                                        <rect key="frame" x="0.0" y="260" width="375" height="21.5"/>
+                                                        <fontDescription key="fontDescription" name="Didot-Bold" family="Didot" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="with Soy Wax and Mint Essential Oil " textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="moj-C8-LQK">
+                                                        <rect key="frame" x="0.0" y="291.5" width="375" height="16"/>
+                                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="13"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="nf7-xk-qDT" firstAttribute="leading" secondItem="Hrg-fU-tGA" secondAttribute="leading" id="Hpi-OJ-zip"/>
+                                    <constraint firstAttribute="trailing" secondItem="nf7-xk-qDT" secondAttribute="trailing" id="WOS-Fg-zMY"/>
+                                    <constraint firstItem="nf7-xk-qDT" firstAttribute="width" secondItem="Hrg-fU-tGA" secondAttribute="width" id="b9V-Ed-MCP"/>
+                                    <constraint firstItem="nf7-xk-qDT" firstAttribute="top" secondItem="Hrg-fU-tGA" secondAttribute="top" id="dOh-6U-KfS"/>
+                                    <constraint firstAttribute="bottom" secondItem="nf7-xk-qDT" secondAttribute="bottom" id="q2g-Sc-nbJ"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Hrg-fU-tGA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="1LH-Zj-gbE"/>
+                            <constraint firstAttribute="trailing" secondItem="Hrg-fU-tGA" secondAttribute="trailing" id="9IN-iC-Aeh"/>
+                            <constraint firstItem="Hrg-fU-tGA" firstAttribute="bottom" secondItem="GJ9-hc-Tpn" secondAttribute="top" id="jag-Ic-uwq"/>
+                            <constraint firstItem="Hrg-fU-tGA" firstAttribute="top" secondItem="xFa-9v-x32" secondAttribute="bottom" id="qLw-rN-wgS"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="474" y="102"/>
+        </scene>
+        <!--Tutorial Detail View Controller-->
+        <scene sceneID="SAL-F7-EiG">
+            <objects>
+                <viewController id="ejb-9y-FkH" userLabel="Tutorial Detail View Controller" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="au7-q8-Zn3"/>
+                        <viewControllerLayoutGuide type="bottom" id="TDt-Jj-fgn"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="naF-bE-wuz">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dDF-dH-bYe">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Eqf-Vu-t7C">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="790"/>
+                                        <subviews>
+                                            <imageView opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="candle-27" translatesAutoresizingMaskIntoConstraints="NO" id="ekP-9K-zOL">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="250"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="ekP-9K-zOL" secondAttribute="height" multiplier="3:2" id="Jzj-PA-upw"/>
+                                                </constraints>
+                                            </imageView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="JUy-eH-Csc">
+                                                <rect key="frame" x="0.0" y="260" width="0.0" height="530"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="5MY-Mk-SZE">
+                                                        <rect key="frame" x="0.0" y="0.0" width="0.0" height="49.5"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Product Title" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8zS-kV-QwJ">
+                                                                <rect key="frame" x="0.0" y="0.0" width="0.0" height="22.5"/>
+                                                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="20"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="with Soy Wax and Mint Essential Oil " textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oc1-qX-Q9x">
+                                                                <rect key="frame" x="0.0" y="32.5" width="0.0" height="17"/>
+                                                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="14"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oC0-Ud-gQz">
+                                                        <rect key="frame" x="0.0" y="69.5" width="0.0" height="1"/>
+                                                        <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="1" id="wbG-bl-CBu"/>
+                                                        </constraints>
+                                                        <edgeInsets key="layoutMargins" top="0.0" left="0.0" bottom="20" right="20"/>
+                                                    </view>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="pq8-cR-aO1">
+                                                        <rect key="frame" x="0.0" y="90.5" width="0.0" height="0.0"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="wordWrap" numberOfLines="10" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M5f-J2-d7a">
+                                                                <edgeInsets key="layoutMargins" top="0.0" left="20" bottom="0.0" right="20"/>
+                                                                <string key="text">Awaken your senses with our Soy Candle Making Kit- the clean alternative to traditional paraffin candles. Welcome guests into your home and conjure up images of freshly baked cookies or the French countryside with fully customizable oil blends for a more personalized experience.
+We use only the highest quality, locally-sourced ingredients for a fun and safe DIY experience. Experience candle-burning the way it should be- clean and free of toxins, carcinogens, and pollutants that trigger allergies and produce petrol-carbon soot. Each kit is hand-crafted with your health and well-being in mind!</string>
+                                                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="14"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                        <edgeInsets key="layoutMargins" top="0.0" left="20" bottom="0.0" right="20"/>
+                                                    </stackView>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="db1-Iv-wum">
+                                                        <rect key="frame" x="0.0" y="110.5" width="0.0" height="1"/>
+                                                        <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="1" id="le7-Sk-lOs"/>
+                                                        </constraints>
+                                                        <edgeInsets key="layoutMargins" top="0.0" left="0.0" bottom="20" right="20"/>
+                                                    </view>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="fAj-3h-X9i">
+                                                        <rect key="frame" x="0.0" y="131.5" width="0.0" height="84.5"/>
+                                                        <subviews>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="ohQ-3u-xZX">
+                                                                <rect key="frame" x="0.0" y="0.0" width="0.0" height="84.5"/>
+                                                                <subviews>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sBb-ZO-h03">
+                                                                        <rect key="frame" x="0.0" y="8" width="0.0" height="42"/>
+                                                                        <attributedString key="attributedText">
+                                                                            <fragment content="">
+                                                                                <attributes>
+                                                                                    <font key="NSFont" metaFont="system" size="36"/>
+                                                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                                </attributes>
+                                                                            </fragment>
+                                                                        </attributedString>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="35-45m" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5nc-1M-2RK">
+                                                                        <rect key="frame" x="0.0" y="60" width="0.0" height="16.5"/>
+                                                                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="14"/>
+                                                                        <nil key="textColor"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                </subviews>
+                                                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                                                                <variation key="heightClass=compact-widthClass=regular">
+                                                                    <edgeInsets key="layoutMargins" top="8" left="30" bottom="8" right="30"/>
+                                                                </variation>
+                                                            </stackView>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="WWh-1Z-HwQ">
+                                                                <rect key="frame" x="0.0" y="0.0" width="0.0" height="84.5"/>
+                                                                <subviews>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EI7-7a-qcz">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="0.0" height="68"/>
+                                                                        <attributedString key="attributedText">
+                                                                            <fragment content="">
+                                                                                <attributes>
+                                                                                    <color key="NSColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                                    <font key="NSFont" metaFont="system" size="18"/>
+                                                                                    <real key="NSKern" value="0.0"/>
+                                                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                                                        <tabStops/>
+                                                                                    </paragraphStyle>
+                                                                                    <color key="NSStrokeColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                                </attributes>
+                                                                            </fragment>
+                                                                            <fragment content="">
+                                                                                <attributes>
+                                                                                    <color key="NSColor" red="0.80000000000000004" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                    <font key="NSFont" metaFont="system" size="18"/>
+                                                                                    <real key="NSKern" value="0.0"/>
+                                                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                                                        <tabStops/>
+                                                                                    </paragraphStyle>
+                                                                                    <color key="NSStrokeColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                                </attributes>
+                                                                            </fragment>
+                                                                        </attributedString>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Medium" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jpu-Su-2dG">
+                                                                        <rect key="frame" x="0.0" y="68" width="50" height="16.5"/>
+                                                                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="14"/>
+                                                                        <nil key="textColor"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                </subviews>
+                                                            </stackView>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="PDe-5P-yJZ">
+                                                                <rect key="frame" x="0.0" y="0.0" width="0.0" height="84.5"/>
+                                                                <subviews>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hux-3k-kyr">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="0.0" height="68"/>
+                                                                        <attributedString key="attributedText">
+                                                                            <fragment content="">
+                                                                                <attributes>
+                                                                                    <color key="NSColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                                    <font key="NSFont" metaFont="system" size="36"/>
+                                                                                    <real key="NSKern" value="0.0"/>
+                                                                                    <font key="NSOriginalFont" metaFont="system" size="36"/>
+                                                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                                                        <tabStops/>
+                                                                                    </paragraphStyle>
+                                                                                    <color key="NSStrokeColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                                </attributes>
+                                                                            </fragment>
+                                                                        </attributedString>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Party" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GuM-Cr-JRY">
+                                                                        <rect key="frame" x="0.0" y="68" width="33" height="16.5"/>
+                                                                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="14"/>
+                                                                        <nil key="textColor"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                </subviews>
+                                                            </stackView>
+                                                        </subviews>
+                                                        <edgeInsets key="layoutMargins" top="0.0" left="20" bottom="0.0" right="20"/>
+                                                    </stackView>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PKa-CF-uMZ">
+                                                        <rect key="frame" x="0.0" y="236" width="0.0" height="1"/>
+                                                        <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="1" id="mUY-hc-WUS"/>
+                                                        </constraints>
+                                                    </view>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="hip-Zk-V1u">
+                                                        <rect key="frame" x="0.0" y="257" width="0.0" height="126.5"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WHAT WE SEND" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s4x-s7-bIu">
+                                                                <rect key="frame" x="0.0" y="0.0" width="0.0" height="16.5"/>
+                                                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="14"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="iUU-RV-aCe">
+                                                                <rect key="frame" x="0.0" y="26.5" width="0.0" height="100"/>
+                                                                <subviews>
+                                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="candle-12" translatesAutoresizingMaskIntoConstraints="NO" id="gz6-YS-feN">
+                                                                        <rect key="frame" x="0.0" y="20" width="80" height="80"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="80" id="9lH-hM-b7s">
+                                                                                <variation key="heightClass=compact-widthClass=regular" constant="160"/>
+                                                                            </constraint>
+                                                                            <constraint firstAttribute="width" secondItem="gz6-YS-feN" secondAttribute="height" multiplier="1:1" id="Vyh-uz-zmS"/>
+                                                                        </constraints>
+                                                                    </imageView>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vvl-Ll-KUu">
+                                                                        <rect key="frame" x="0.0" y="20" width="34.5" height="80"/>
+                                                                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="14"/>
+                                                                        <nil key="textColor"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                </subviews>
+                                                                <edgeInsets key="layoutMargins" top="20" left="20" bottom="0.0" right="0.0"/>
+                                                            </stackView>
+                                                        </subviews>
+                                                        <edgeInsets key="layoutMargins" top="0.0" left="20" bottom="0.0" right="20"/>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="22B-M6-pyy">
+                                                        <rect key="frame" x="0.0" y="403.5" width="0.0" height="126.5"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WHAT YOU WILL NEED" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cny-MW-6kC">
+                                                                <rect key="frame" x="0.0" y="0.0" width="0.0" height="16.5"/>
+                                                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="14"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="vxD-pQ-I0a">
+                                                                <rect key="frame" x="0.0" y="26.5" width="0.0" height="100"/>
+                                                                <subviews>
+                                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="candle-13" translatesAutoresizingMaskIntoConstraints="NO" id="QQy-SP-2G1">
+                                                                        <rect key="frame" x="0.0" y="20" width="80" height="80"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="width" secondItem="QQy-SP-2G1" secondAttribute="height" multiplier="1:1" id="J7r-eO-had"/>
+                                                                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="80" id="KQX-Pu-UD3">
+                                                                                <variation key="heightClass=compact-widthClass=regular" constant="160"/>
+                                                                            </constraint>
+                                                                        </constraints>
+                                                                    </imageView>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JN0-BT-2Mg">
+                                                                        <rect key="frame" x="0.0" y="20" width="34.5" height="80"/>
+                                                                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="14"/>
+                                                                        <nil key="textColor"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                </subviews>
+                                                                <edgeInsets key="layoutMargins" top="20" left="20" bottom="0.0" right="0.0"/>
+                                                            </stackView>
+                                                        </subviews>
+                                                        <edgeInsets key="layoutMargins" top="0.0" left="20" bottom="0.0" right="20"/>
+                                                    </stackView>
+                                                </subviews>
+                                                <edgeInsets key="layoutMargins" top="0.0" left="0.0" bottom="0.0" right="0.0"/>
+                                            </stackView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="ekP-9K-zOL" firstAttribute="width" secondItem="Eqf-Vu-t7C" secondAttribute="width" id="8Sa-GI-def"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="Eqf-Vu-t7C" secondAttribute="bottom" id="OkT-um-rwX"/>
+                                    <constraint firstItem="Eqf-Vu-t7C" firstAttribute="width" secondItem="dDF-dH-bYe" secondAttribute="width" id="Pgq-rL-kRU"/>
+                                    <constraint firstItem="Eqf-Vu-t7C" firstAttribute="leading" secondItem="dDF-dH-bYe" secondAttribute="leading" id="TYX-T4-ZWn"/>
+                                    <constraint firstAttribute="trailing" secondItem="Eqf-Vu-t7C" secondAttribute="trailing" id="Y1J-c6-AjC"/>
+                                    <constraint firstItem="Eqf-Vu-t7C" firstAttribute="top" secondItem="dDF-dH-bYe" secondAttribute="top" id="yPY-KE-LDv"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="dDF-dH-bYe" firstAttribute="top" secondItem="au7-q8-Zn3" secondAttribute="bottom" id="GWc-6d-1Ks"/>
+                            <constraint firstItem="dDF-dH-bYe" firstAttribute="trailing" secondItem="naF-bE-wuz" secondAttribute="trailing" id="VNV-kB-esN"/>
+                            <constraint firstItem="dDF-dH-bYe" firstAttribute="leading" secondItem="naF-bE-wuz" secondAttribute="leading" id="ZS6-F0-VVt"/>
+                            <constraint firstItem="dDF-dH-bYe" firstAttribute="bottom" secondItem="TDt-Jj-fgn" secondAttribute="top" id="wvz-GC-B1Z"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fgD-YC-GVl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1336.8" y="122.78860569715144"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="4Os-Xj-0bP">
+            <objects>
+                <viewController id="Yh8-9s-nxP" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Dbl-H6-BXt"/>
+                        <viewControllerLayoutGuide type="bottom" id="2sn-mR-Mah"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="EBL-0q-ttz">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MsK-8P-Ptz">
+                                <rect key="frame" x="16" y="20" width="359" height="676.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">Working on a covered surface, pour one pack of the SOY WAX FLAKES into the GLASS MASON JAR.
+
+
+Add a few inches of water to the saucepan.
+
+
+Add the jar of wax. Let it simmer gently on low. Hot wax and simmering water are no joke, so PLEASE BE CAREFUL! When wax is hot enough to smoke, it’s in danger of igniting. NEVER LEAVE HEATING WAX UNATTENDED.
+
+
+Place a WICK STICKUM on the bottom of the WICK.
+
+
+Center the wick inside the glass candle jar.
+
+
+Repeat this step for the remaining jars.
+
+
+Keep watching as the wax melts. It happens quickly! 
+
+
+Once the wax is completely melted, turn off the heat. Using the DISH TOWEL to protect your hands, remove the jar of wax from the stove
+
+
+Add the ESSENTIAL OIL or FRAGRANCE OIL to the melted wax.
+
+
+Stir carefully.
+
+
+Slowly pour the wax into the glass containers. Be careful! It's really hot.
+
+
+Let the wax dry. You can use a chopstick to prop up the wick as it dries.
+
+
+Once it's completely cool, snip the wick about 1/4" away from the wax.
+
+
+Put Caps and LABELS on.
+
+
+Enjoy!
+
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="13" name="AppleSDGothicNeo-Regular"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sdC-dI-IaO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2096.8000000000002" y="121.88905547226388"/>
+        </scene>
+        <!--Tutorial List Controller-->
+        <scene sceneID="R9Q-Lv-g1J">
+            <objects>
+                <viewController storyboardIdentifier="ToturialListView" id="W8k-3z-INd" customClass="TutorialListController" customModule="Tutorials" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PKU-Jr-zjm"/>
+                        <viewControllerLayoutGuide type="bottom" id="9p1-9X-pTS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="rsN-o8-wA4">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="QO0-VX-jli">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="QO0-VX-jli" firstAttribute="leading" secondItem="rsN-o8-wA4" secondAttribute="leading" id="5pg-Vm-Muh"/>
+                            <constraint firstAttribute="bottom" secondItem="QO0-VX-jli" secondAttribute="bottom" id="FpU-99-9Cz"/>
+                            <constraint firstAttribute="trailing" secondItem="QO0-VX-jli" secondAttribute="trailing" id="TTn-TS-pHd"/>
+                            <constraint firstItem="QO0-VX-jli" firstAttribute="top" secondItem="PKU-Jr-zjm" secondAttribute="bottom" id="lMT-i4-OTb"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7mg-ZQ-g9p" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3760.8000000000002" y="107.49625187406298"/>
+        </scene>
+        <!--Tutorial Detail Controller-->
+        <scene sceneID="l6J-OW-Exj">
+            <objects>
+                <viewController storyboardIdentifier="TutorialDetailView" id="qmn-2J-Igg" userLabel="Tutorial Detail Controller" customClass="TutorialDetailController" customModule="Tutorials" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dWs-58-H2M"/>
+                        <viewControllerLayoutGuide type="bottom" id="gAb-aM-e7x"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kwM-qc-0BI">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="k2X-eG-V0g">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="dWs-58-H2M" firstAttribute="bottom" secondItem="k2X-eG-V0g" secondAttribute="top" id="DSX-WQ-c15"/>
+                            <constraint firstAttribute="bottom" secondItem="k2X-eG-V0g" secondAttribute="bottom" id="Hvq-2c-9nD"/>
+                            <constraint firstAttribute="trailing" secondItem="k2X-eG-V0g" secondAttribute="trailing" id="hr9-Ct-MRT"/>
+                            <constraint firstItem="k2X-eG-V0g" firstAttribute="leading" secondItem="kwM-qc-0BI" secondAttribute="leading" id="l2W-kb-qGJ"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wmm-mk-ujk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4532" y="106.59670164917542"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bg" width="640" height="543"/>
+        <image name="candle-12" width="800" height="534"/>
+        <image name="candle-13" width="800" height="534"/>
+        <image name="candle-27" width="800" height="534"/>
+    </resources>
+</document>

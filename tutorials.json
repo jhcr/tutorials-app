@@ -1,0 +1,1003 @@
+[
+  {
+    "id" : "ecde600c-b32d-4c73-9792-495d1c568000",
+    "timeNeeded" : "30-45min",
+    "yield" : "6 jars",
+    "feature" : "with Soy Wax and Essntial Oil Blends",
+    "demanded" : [
+      {
+        "name" : "Sauce Pan",
+        "image" : "saucePan"
+      },
+      {
+        "name" : "Scissor",
+        "image" : "scissor"
+      },
+      {
+        "name" : "Paper Towel",
+        "image" : "paperTowel"
+      }
+    ],
+    "included" : [
+      {
+        "name" : "Soy Wax Flake",
+        "image" : "soyWaxFlake"
+      },
+      {
+        "name" : "Sweet Orange Essential Oil",
+        "image" : "sweetOrangeEssentialOil"
+      },
+      {
+        "name" : "Lemon Sugar Fragrance Oil",
+        "image" : "lemonSugarFragranceOil"
+      },
+      {
+        "name" : "Vanilla + Lavender Essential Oil Blend",
+        "image" : "vanillaLavenderEssentialOilBlend"
+      },
+      {
+        "name" : "Glass Mason Jar",
+        "image" : "glassMasonJar"
+      },
+      {
+        "name" : "Wicks",
+        "image" : "wicks"
+      },
+      {
+        "name" : "Wick Stickums",
+        "image" : "wickStickum"
+      },
+      {
+        "name" : "Glass Candle Containers",
+        "image" : "glassCandleContainer"
+      },
+      {
+        "name" : "Golden Lids",
+        "image" : "goldenLids"
+      },
+      {
+        "name" : "Candle Labels",
+        "image" : "labels"
+      }
+    ],
+    "title" : "Candle DIY Tutorial",
+    "size" : "SmallGroup",
+    "summary" : "Awaken your senses with our Soy Candle Making Kit- the clean alternative to traditional paraffin candles. Welcome guests into your home and conjure up images of freshly baked cookies or the French countryside with fully customizable oil blends for a more personalized experience.",
+    "details" : [
+      {
+        "images" : [
+          "candle-3"
+        ],
+        "text" : "Gather your tools. You will need a SAUCE PAN, SCISSORS, and PAPER TOWEL."
+      },
+      {
+        "images" : [
+          "candle-6"
+        ],
+        "text" : "Working on a covered surface, pour one pack of the SOY WAX FLAKES into the GLASS MASON JAR."
+      },
+      {
+        "images" : [
+          "candle-7"
+        ],
+        "text" : "Add a few inches of water to the saucepan."
+      },
+      {
+        "images" : [
+          "candle-9"
+        ],
+        "text" : "Add the jar of wax. Let it simmer gently on low. Hot wax and simmering water are no joke, so PLEASE BE CAREFUL! When wax is hot enough to smoke, it’s in danger of igniting. NEVER LEAVE HEATING WAX UNATTENDED."
+      },
+      {
+        "images" : [
+          "candle-12"
+        ],
+        "text" : "Place a WICK STICKUM on the bottom of the WICK."
+      },
+      {
+        "images" : [
+          "candle-13"
+        ],
+        "text" : "Center the wick inside the glass candle jar."
+      },
+      {
+        "images" : [
+          "candle-14"
+        ],
+        "text" : "Repeat this step for the remaining jars."
+      },
+      {
+        "images" : [
+          "candle-15"
+        ],
+        "text" : "Keep watching as the wax melts. It happens quickly! "
+      },
+      {
+        "images" : [
+          "candle-17"
+        ],
+        "text" : "Once the wax is completely melted, turn off the heat. Using the DISH TOWEL to protect your hands, remove the jar of wax from the stove."
+      },
+      {
+        "images" : [
+          "candle-18"
+        ],
+        "text" : "Add the ESSENTIAL OIL or FRAGRANCE OIL to the melted wax."
+      },
+      {
+        "images" : [
+          "candle-19"
+        ],
+        "text" : "Stir carefully."
+      },
+      {
+        "images" : [
+          "candle-21"
+        ],
+        "text" : "Slowly pour the wax into the glass containers. Be careful! It's really hot."
+      },
+      {
+        "images" : [
+          "candle-22"
+        ],
+        "text" : "Let the wax dry. You can use a chopstick to prop up the wick as it dries."
+      },
+      {
+        "images" : [
+          "candle-24"
+        ],
+        "text" : "Once it's completely cool, snip the wick about 1\/4\" away from the wax."
+      },
+      {
+        "images" : [
+          "candle-26"
+        ],
+        "text" : "Put Caps and LABELS on."
+      },
+      {
+        "images" : [
+          "candle-27"
+        ],
+        "text" : "Enjoy!"
+      }
+    ],
+    "images" : [
+      "candle-27",
+      "candle-6"
+    ],
+    "difficulty" : "Medium"
+  },
+  {
+    "id" : "ecde600c-b32d-4c73-9792-495d1c568010",
+    "timeNeeded" : "30-45min",
+    "yield" : "18+ bombs",
+    "feature" : "with Kaolin Clay and Rose & Calendula Flowers and Essntial Oil Blends",
+    "demanded" : [
+      {
+        "name" : "Big bowl",
+        "image" : "bowl"
+      },
+      {
+        "name" : "Wire whisk",
+        "image" : "wireWhisk"
+      },
+      {
+        "name" : "Mixer",
+        "image" : "mixer"
+      }
+    ],
+    "included" : [
+      {
+        "name" : "Baking Soda",
+        "image" : "bakingSoda"
+      },
+      {
+        "name" : "Citric Acid",
+        "image" : "citricAcid"
+      },
+      {
+        "name" : "Corn Starch",
+        "image" : "cornStarch"
+      },
+      {
+        "name" : "Epsom Salt",
+        "image" : "epsomSalt"
+      },
+      {
+        "name" : "Kaolin Clay",
+        "image" : "kaolinClay"
+      },
+      {
+        "name" : "Rose Buds & Petals",
+        "image" : "rosePetals"
+      },
+      {
+        "name" : "Organic Calendula Flowers",
+        "image" : "calendulaFlowers"
+      },
+      {
+        "name" : "Olive Oil",
+        "image" : "oliveOil"
+      },
+      {
+        "name" : "Bergamot and Grapefruit Essential Oil Blend",
+        "image" : "bergamotGrapefruit"
+      },
+      {
+        "name" : "Sleep Time Essential Oil Blend",
+        "image" : "sleepTime"
+      },
+      {
+        "name" : "Eucalyptus & Spearmint Essential Oil Blend",
+        "image" : "eucalyptusSpearmint"
+      },
+      {
+        "name" : "Spray Bottle",
+        "image" : "sprayBottle"
+      },
+      {
+        "name" : "2 sets of Bath Bomb Mold",
+        "image" : "mold"
+      },
+      {
+        "name" : "Tissue Paper",
+        "image" : "tissuePaper"
+      },
+      {
+        "name" : "Labels",
+        "image" : "labels"
+      }
+    ],
+    "title" : "Bath Bomb DIY Tutorial",
+    "size" : "SmallGroup",
+    "summary" : "Discover the easy and effective way to make 15+ luxurious bath bombs in the comfort of your own home, and relax and unwind with peace of mind. Make Luxury Bath Bombs with Natural & Organic Ingredients: Each Kit comes with 10+ Natural Ingredients and Tools. Essential Oil Blend + 2 Sets of Bath Bomb Molds included.",
+    "details" : [
+      {
+        "images" : [
+          "bathbomb-2"
+        ],
+        "text" : "Prepare the tools you need: a big bowl, a wire whisk or a mixer."
+      },
+      {
+        "images" : [
+          "bathbomb-5"
+        ],
+        "text" : "Open the bag of baking soda, and add it into the bowl."
+      },
+      {
+        "images" : [
+          "bathbomb-6"
+        ],
+        "text" : "Open the bag of kaolin clay\/corn starch, and add it into the bowl."
+      },
+      {
+        "images" : [
+          "bathbomb-9"
+        ],
+        "text" : "Add citric acid to the bowl."
+      },
+      {
+        "images" : [
+          "bathbomb-11"
+        ],
+        "text" : "Combine the ingredients using a wire whisk or a mixer."
+      },
+      {
+        "images" : [
+          "bathbomb-13"
+        ],
+        "text" : "Drizzle Moisturizing Oil Blend (either grape seed oil or apricot kennel oil) over the dry ingredients."
+      },
+      {
+        "images" : [
+          "bathbomb-18"
+        ],
+        "text" : "Drizzle Essential Oil Blend over the ingredients."
+      },
+      {
+        "images" : [
+          "bathbomb-15"
+        ],
+        "text" : "Use the whisk or mixer to combine all the ingredients again and make sure they are well incorporated."
+      },
+      {
+        "images" : [
+          "bathbomb-20"
+        ],
+        "text" : "Be sure to break up any clumps of powder that are in the mixture."
+      },
+      {
+        "images" : [
+          "bathbomb-23"
+        ],
+        "text" : "If the mixture is too dry and crumbly, fill the spray bottle with rubbing alcohol or water, and spritz until mixture sticks together. Half bottle of water is good in the climate of California"
+      },
+      {
+        "images" : [
+          "bathbomb-24",
+          "bathbomb-25"
+        ],
+        "text" : "Once the mixture has been thoroughly blended, take some of the mixture and squeeze in the palm of your hand. If the mixture sticks together like wet sand, it is ready to be molded."
+      },
+      {
+        "images" : [
+          "bathbomb-28"
+        ],
+        "text" : "Pack both halves of a mold with enough mixture,  so the tops are mounded over."
+      },
+      {
+        "images" : [
+          "bathbomb-29"
+        ],
+        "text" : "With one half in each hand, tightly push the mold together."
+      },
+      {
+        "images" : [
+          "bathbomb-30"
+        ],
+        "text" : "Remove excessive powder around the edge to get a smooth finish."
+      },
+      {
+        "images" : [
+          "bathbomb-31"
+        ],
+        "text" : "Wait for several minutes before open the mold."
+      },
+      {
+        "images" : [
+          "bathbomb-44",
+          "bathbomb-39"
+        ],
+        "text" : "After one side is open, gently tap the other side from top to release the ball from mold."
+      },
+      {
+        "images" : [
+          "bathbomb-41",
+          "bathbomb-42",
+          "bathbomb-43"
+        ],
+        "text" : "If you like, you may add flower petals in the mold before pack with the mixture."
+      },
+      {
+        "images" : [
+          "bathbomb-45"
+        ],
+        "text" : "Continue until all bath bombs are made. Let the bath bombs harden and dry for 24 - 48 hours before wrapping."
+      },
+      {
+        "images" : [
+          "bathbomb-46",
+          "bathbomb-47",
+          "bathbomb-48",
+          "bathbomb-49"
+        ],
+        "text" : "When ready to package, wrap all bath bombs with tissue papers and apply labels on."
+      },
+      {
+        "images" : [
+          "bathbomb-50"
+        ],
+        "text" : "Enjoy!"
+      }
+    ],
+    "images" : [
+      "bathbomb-45"
+    ],
+    "difficulty" : "Medium"
+  },
+  {
+    "id" : "ecde600c-b32d-4c73-9792-495d1c568020",
+    "timeNeeded" : "30-60min",
+    "yield" : "12 or 36 tubes",
+    "feature" : "with Cocoa Butter and Beeswax and Essential Oil",
+    "demanded" : [
+      {
+        "name" : "Glass Cup",
+        "image" : "glassCup"
+      },
+      {
+        "name" : "Pot",
+        "image" : "saucePan"
+      }
+    ],
+    "included" : [
+      {
+        "name" : "Grapeseed Oil",
+        "image" : "grapeseedOil"
+      },
+      {
+        "name" : "Beeswax",
+        "image" : "beeswax"
+      },
+      {
+        "name" : "Cocoa Butter",
+        "image" : "cocoaButter"
+      },
+      {
+        "name" : "Stevia  (12-tube version)",
+        "image" : "stevia"
+      },
+      {
+        "name" : "Peppermint Essential Oil",
+        "image" : "peppermint"
+      },
+      {
+        "name" : "Summer Peach Flavor Oil (36-tube version)",
+        "image" : "peach"
+      },
+      {
+        "name" : "Bubble Gum Flavor Oil (36-tube version)",
+        "image" : "bubbleGum"
+      },
+      {
+        "name" : "Organic Matcha Powder (36-tube version)",
+        "image" : "matchaPowder"
+      },
+      {
+        "name" : "Colloidal Oatmeal (36-tube version)",
+        "image" : "colloidalOatmeal"
+      },
+      {
+        "name" : "Beet Powder (36-tube version)",
+        "image" : "beetPowder"
+      },
+      {
+        "name" : "Droppers",
+        "image" : "dropper"
+      },
+      {
+        "name" : "Stirring Sticks",
+        "image" : "stirringStick"
+      },
+      {
+        "name" : "Lip Balm Tubes",
+        "image" : "lipBalmTube"
+      },
+      {
+        "name" : "Lip Balm Labels",
+        "image" : "labels"
+      }
+    ],
+    "title" : "Lip Balm DIY Tutorial",
+    "size" : "SmallGroup",
+    "summary" : "Discover the fun way to pamper the glamourous, lip-balm loving ladies in your family! This well-curated kit contains everything you need to make luxurious, all natural lip balms right from the comfort of your own home.",
+    "details" : [
+      {
+        "images" : [
+          "lipbalm-1"
+        ],
+        "text" : "Prepare the tools you need: a glass cup, a pot."
+      },
+      {
+        "images" : [
+          "lipbalm-2"
+        ],
+        "text" : "Heat 4- 6 cups of water in the pot."
+      },
+      {
+        "images" : [
+          "lipbalm-6"
+        ],
+        "text" : "Carefully transfer the pre-measured Beeswax pellets to the glass cup, and place the cup in the hot water."
+      },
+      {
+        "images" : [
+          "lipbalm-3",
+          "lipbalm-11"
+        ],
+        "text" : "Heat on low."
+      },
+      {
+        "images" : [
+          "lipbalm-13",
+          "lipbalm-15"
+        ],
+        "text" : "Once the beeswax has completely melted, add Cocoa Butter and Grapeseed Oil to the cup."
+      },
+      {
+        "images" : [
+          "lipbalm-18",
+          "lipbalm-20"
+        ],
+        "text" : "If you would like to add more color at this point, you may add a small dab of your favorite lipstick and melt it into the other ingredients."
+      },
+      {
+        "images" : [
+          "lipbalm-23"
+        ],
+        "text" : "Add the Peppermint Essential Oil in."
+      },
+      {
+        "images" : [
+          "lipbalm-26"
+        ],
+        "text" : "Add a tiny bit of the all natural Stevia in."
+      },
+      {
+        "images" : [
+          "lipbalm-17"
+        ],
+        "text" : "Stir the mixture thoroughly."
+      },
+      {
+        "images" : [
+          "lipbalm-21"
+        ],
+        "text" : "Turn off the heat and pick up the cup with a dish towel CAREFULLY."
+      },
+      {
+        "images" : [
+          "lipbalm-29"
+        ],
+        "text" : "Use the dropper to transfer the mixture into the tubes."
+      },
+      {
+        "images" : [
+          "lipbalm-31"
+        ],
+        "text" : "Allow the lip balms to cool completely. Put caps and labels on."
+      }
+    ],
+    "images" : [
+      "lipbalm-31"
+    ],
+    "difficulty" : "Medium"
+  },
+  {
+    "id" : "ecde600c-b32d-4c73-9792-495d1c568030",
+    "timeNeeded" : "45-60min",
+    "yield" : "6 bottles",
+    "feature" : "with Four Types of Peppers, Dried Fruits and Can sugar",
+    "demanded" : [
+      {
+        "name" : "Large bowl",
+        "image" : "bowl"
+      },
+      {
+        "name" : "Blender",
+        "image" : "blender"
+      },
+      {
+        "name" : "Knife",
+        "image" : "knife"
+      },
+      {
+        "name" : "Cutting Board",
+        "image" : "cuttingBoard"
+      },
+      {
+        "name" : "Salt",
+        "image" : "salt"
+      }
+    ],
+    "included" : [
+      {
+        "name" : "Chipotle Pepper",
+        "image" : "chipotlePeper"
+      },
+      {
+        "name" : "De Arbol Pepper",
+        "image" : "deArbolPeper"
+      },
+      {
+        "name" : "Ghost Pepper",
+        "image" : "ghostPeper"
+      },
+      {
+        "name" : "Guajillo Pepper",
+        "image" : "guajilloPepper"
+      },
+      {
+        "name" : "Dried Mango",
+        "image" : "mango"
+      },
+      {
+        "name" : "Dried Papaya",
+        "image" : "papaya"
+      },
+      {
+        "name" : "New Mexico Chili Powder",
+        "image" : "newMexicoChiliPowder"
+      },
+      {
+        "name" : "Ancho Chili Powder",
+        "image" : "anchoChiliPowder"
+      },
+      {
+        "name" : "Cayenne Chili Powder",
+        "image" : "cayenneChiliPowder"
+      },
+      {
+        "name" : "Madras Curry Powder",
+        "image" : "madrasCurryPowder"
+      },
+      {
+        "name" : "Garlic Powder",
+        "image" : "garlicPowder"
+      },
+      {
+        "name" : "Onion Powder",
+        "image" : "onionPowder"
+      },
+      {
+        "name" : "Turbinado Cane Sugar Pack",
+        "image" : "caneSugar"
+      },
+      {
+        "name" : "Apple Cider Vinegar",
+        "image" : "appleCiderVinegar"
+      },
+      {
+        "name" : "Glass Sauce Bottle + Cap",
+        "image" : "glassSauceBottle"
+      },
+      {
+        "name" : "Bottle Stopper",
+        "image" : "stopper"
+      },
+      {
+        "name" : "Glove",
+        "image" : "glove"
+      },
+      {
+        "name" : "Labels",
+        "image" : "labels"
+      }
+    ],
+    "title" : "Hot Sauce DIY Tutorial",
+    "size" : "SmallGroup",
+    "summary" : "Crank up the AC, it’s about to get hot in here! Our FULLY CUSTOMIZABLE hot sauce making kit is re-inventing the way you cook. This one-of-a-kind kit includes everything you need to make six mouth-watering bottles of hot sauce so you can amp up the flavor right in your own kitchen.",
+    "details" : [
+      {
+        "images" : [
+          "hotsauce-3"
+        ],
+        "text" : "Gather your tools and ingredients: You will need a large bowl, a blender, a knife, a cutting board and salt."
+      },
+      {
+        "images" : [
+          "hotsauce-4"
+        ],
+        "text" : "Put the glove on, prepare to touch the peppers."
+      },
+      {
+        "images" : [
+          "hotsauce-5"
+        ],
+        "text" : "Open the brown bag and find the pack of dried peppers inside. You can make 3 types of hot sauce by the kit. Ingredients used for different flavors are already packaged into 3 different brown bags, you will use only one brown bag at a time."
+      },
+      {
+        "images" : [
+          "hotsauce-6",
+          "hotsauce-7"
+        ],
+        "text" : "Cut off the tops of the dried peppers, and then coarsely chop them up."
+      },
+      {
+        "images" : [
+          "hotsauce-8"
+        ],
+        "text" : "Place the chopped peppers in a small bowl."
+      },
+      {
+        "images" : [
+          "hotsauce-9"
+        ],
+        "text" : "Pour 12 oz. of boiling water (1 - 1\/2 cups) over the peppers, and let them soak in the water for about 25 - 30 minutes."
+      },
+      {
+        "images" : [
+          "hotsauce-11"
+        ],
+        "text" : "Add in 1\/4 cup of apple cider vinegar into the bowl. You may add up to 1\/3 cup if you prefer a more vinegar flavor in your hot sauce."
+      },
+      {
+        "images" : [
+          "hotsauce-12",
+          "hotsauce-13",
+          "hotsauce-14"
+        ],
+        "text" : "Add all packs of spicy powder (in the same brown bag with the peppers) into the bowl."
+      },
+      {
+        "images" : [
+          "hotsauce-15"
+        ],
+        "text" : "Add 2 - 3 packs of sugar (depending on desired sweetness) into the bowl."
+      },
+      {
+        "images" : [
+          "hotsauce-16"
+        ],
+        "text" : "AAdd 1\/4 tbsp of salt into the bowl."
+      },
+      {
+        "images" : [
+          "hotsauce-17"
+        ],
+        "text" : "Pour the mixture into a blender or food processor. Blend until smooth."
+      },
+      {
+        "images" : [
+          "hotsauce-18"
+        ],
+        "text" : "Cut one inch of the funnel by 45 degree for easier pouring."
+      },
+      {
+        "images" : [
+          "hotsauce-19"
+        ],
+        "text" : "Let the wax dry. You can use a chopstick to prop up the wick as it dries."
+      },
+      {
+        "images" : [
+          "hotsauce-20"
+        ],
+        "text" : "Put on the stoppers and caps."
+      },
+      {
+        "images" : [
+          "hotsauce-21"
+        ],
+        "text" : "Put the hot sauce labels on the bottle."
+      },
+      {
+        "images" : [
+          "hotsauce-22"
+        ],
+        "text" : "Enjoy! Move on to next flavor of your choice and made by same steps."
+      }
+    ],
+    "images" : [
+      "hotsauce-22"
+    ],
+    "difficulty" : "Medium"
+  },
+  {
+    "id" : "ecde600c-b32d-4c73-9792-495d1c568040",
+    "timeNeeded" : "30min",
+    "yield" : "6 bars",
+    "feature" : "with Goat Milk Soap Base and Himalayan Salt",
+    "demanded" : [
+      {
+        "name" : "Microwave Safe Container",
+        "image" : "glassMasonJar"
+      },
+      {
+        "name" : "Microwave",
+        "image" : "microwave"
+      }
+    ],
+    "included" : [
+      {
+        "name" : "Pre-Cut Goat Milk Soap Base",
+        "image" : "soapBase"
+      },
+      {
+        "name" : "Himalayan Salt",
+        "image" : "himalayanSalt"
+      },
+      {
+        "name" : "Goat Milk & Honey Fragrance Oil",
+        "image" : "goatMilkHoney"
+      },
+      {
+        "name" : "Lemon Sugar Fragrance Oil",
+        "image" : "lemonSugarFragranceOil"
+      },
+      {
+        "name" : "Silicone Mold",
+        "image" : "soapMold"
+      },
+      {
+        "name" : "Clear cello bags",
+        "image" : "bags"
+      },
+      {
+        "name" : "Labels",
+        "image" : "labels"
+      }
+    ],
+    "title" : "Soap DIY Tutorial",
+    "size" : "SmallGroup",
+    "summary" : "Awaken your senses with our Soy Candle Making Kit- the clean alternative to traditional paraffin candles. Welcome guests into your home and conjure up images of freshly baked cookies or the French countryside with fully customizable oil blends for a more personalized experience.",
+    "details" : [
+      {
+        "images" : [
+
+        ],
+        "text" : "Place one bag of the pre-cut Soap Cubes in a large microwave safe container and heat the soap in microwave for 60-90 seconds. If soap cubes are not completely melted, microwave for additional 15 seconds or until completely melted."
+      },
+      {
+        "images" : [
+
+        ],
+        "text" : "Remove soap from microwave CAREFULLY and add the fragrance oil (of your choice)."
+      },
+      {
+        "images" : [
+
+        ],
+        "text" : "Add one bag of Himalayan salt to soap and stir until blended."
+      },
+      {
+        "images" : [
+
+        ],
+        "text" : "Place silicone mold on a cookie sheet to give it stability when moving. Carefully pour the soap into 3 cavities being sure to stir the soap mixture before each pour. This will keep the salts well-blended so each bar with have salts in them."
+      },
+      {
+        "images" : [
+
+        ],
+        "text" : "Repeat above steps to make second set of soaps (with different fragrance)."
+      },
+      {
+        "images" : [
+
+        ],
+        "text" : "When soap returns to room temperature, carefully un-mold the soap and package them in the clear cello bags."
+      },
+      {
+        "images" : [
+
+        ],
+        "text" : "Apply labels. Enjoy :)"
+      }
+    ],
+    "images" : [
+      "candle-27"
+    ],
+    "difficulty" : "Medium"
+  },
+  {
+    "id" : "ecde600c-b32d-4c73-9792-495d1c568050",
+    "timeNeeded" : "30min",
+    "yield" : "4 bottles",
+    "feature" : "with Grape Seed Oil and Shea Butter and Colloidal Oatmeal",
+    "demanded" : [
+      {
+        "name" : "Big Bowl",
+        "image" : "bowl"
+      },
+      {
+        "name" : "WireWhisk",
+        "image" : "wireWhisk"
+      }
+    ],
+    "included" : [
+      {
+        "name" : "Grapeseed Oil",
+        "image" : "grapeseedOil"
+      },
+      {
+        "name" : "Vegetable Glycerin",
+        "image" : "glycerin"
+      },
+      {
+        "name" : "Shea Butter",
+        "image" : "sheaButter"
+      },
+      {
+        "name" : "Emulsifying Wax",
+        "image" : "emulsifyingWax"
+      },
+      {
+        "name" : "Stearic Acid",
+        "image" : "stearicAcid"
+      },
+      {
+        "name" : "Colloidal Oatmeal",
+        "image" : "colloidalOatmeal"
+      },
+      {
+        "name" : "Paraben Free Preservative",
+        "image" : "preservative"
+      },
+      {
+        "name" : "Lemon Sugar Fragrance Oil",
+        "image" : "lemonSugarFragranceOil"
+      },
+      {
+        "name" : "Goat Milk & Honey Fragrance Oil",
+        "image" : "goatMilkHoney"
+      },
+      {
+        "name" : "Amber Tolles + Pumps",
+        "image" : "TolleAndPump"
+      },
+      {
+        "name" : "Labels",
+        "image" : "labels"
+      }
+    ],
+    "title" : "Body Lotion DIY Tutorial",
+    "size" : "SmallGroup",
+    "summary" : "Invigorate your senses with our all-natural, DIY moisturizing body lotion kit designed to provide your skin with long-lasting, silky-smooth hydration. This kit provides everything you need to make up to four bottles of luxurious lotion that can be enjoyed time and time again.",
+    "details" : [
+      {
+        "images" : [
+          "lotion-1"
+        ],
+        "text" : "Prepare the tools you need: a big bowl, a wire whisk or a mixer."
+      },
+      {
+        "images" : [
+          "lotion-3"
+        ],
+        "text" : "In a large glass mixing bowl, add 24 ounces of water."
+      },
+      {
+        "images" : [
+          "lotion-4"
+        ],
+        "text" : "Add STEARIC ACID and EMULSIFYING WAX to the water."
+      },
+      {
+        "images" : [
+
+        ],
+        "text" : "Place bowl in microwave and heat until stearic acid and Emulsifying wax are completely melted. This could take between 2-3 MINUTES or longer depending on wattage of your microwave. Waxes must be completely melted for lotion to emulsify properly."
+      },
+      {
+        "images" : [
+
+        ],
+        "text" : "Stir all ingredients once wax mixture has melted in."
+      },
+      {
+        "images" : [
+          "lotion-6",
+          "lotion-7",
+          "lotion-8"
+        ],
+        "text" : "To the water mixture, add in SHEA BUTTER, GLYCERIN, and GRAPESEED OIL. Gently stir to allow butter to soften and melt."
+      },
+      {
+        "images" : [
+          "lotion-5"
+        ],
+        "text" : "Using a stick blender or hand mixer, begin to blend ingredients CAREFULLY. Continue blending until mixture starts to thicken. This may take SEVERAL MINUTES."
+      },
+      {
+        "images" : [
+
+        ],
+        "text" : "Once the mixture starts to thicken, turn off blender and let the mixture sit and cool for 30 MINUTES."
+      },
+      {
+        "images" : [
+          "lotion-7",
+          "lotion-9",
+          "lotion-11",
+          "lotion-5"
+        ],
+        "text" : "Add PRESERVATIVE, FRAGRANCE OIL of your choice and COLLOIDAL OATMEAL to the mixture, blend thoroughly for about 2-3 MINUTES until all ingredients are thoroughly incorporated."
+      },
+      {
+        "images" : [
+          "lotion-12"
+        ],
+        "text" : "Pour the mixture into bottles & Let lotion cool completely."
+      },
+      {
+        "images" : [
+          "lotion-13",
+          "lotion-14"
+        ],
+        "text" : "Trim the dip tubes on the pumps to fit the bottles and insert into the bottles."
+      },
+      {
+        "images" : [
+          "lotion-16",
+          "lotion-17"
+        ],
+        "text" : "Put labels on. Enjoy :)"
+      }
+    ],
+    "images" : [
+      "lotion-17"
+    ],
+    "difficulty" : "Medium"
+  }
+]
